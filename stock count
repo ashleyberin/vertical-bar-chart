@@ -1,0 +1,13 @@
+import matplotlib.pyplot as plt
+import json
+
+xAxis = ['chairs','tables','stands','lamps','cups']
+yAxis = [20,5,7,8,10]
+plt.grid(True)
+
+plt.plot(xAxis,yAxis,color='maroon',marker='*')
+plt.xlabel('asset')
+plt.ylabel('count')
+plt.title('stock count')
+
+plt.show()
